@@ -268,6 +268,7 @@ function createGenderChart2() {
     })
 }
 window.addEventListener('load', function(){
+    
     belonging = d3.select('#belonging')
 
     belonging.append('div').attr('id', 'chart1');
@@ -276,6 +277,7 @@ window.addEventListener('load', function(){
     belonging.append('div').attr('id', 'chart4');
 
     nonDisc = d3.select('#nonDisc')
+    
     nonDisc.append('div').attr('id', 'chart5');
     nonDisc.append('div').attr('id', 'chart6');
     nonDisc.append('div').attr('id', 'chart7');
