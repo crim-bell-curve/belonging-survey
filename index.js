@@ -34,7 +34,8 @@ function createRaceChart() {
                 }
             },
             y2: {
-                show: true
+                show: true,
+                min: 0
             }
         },
         legend: {
@@ -86,7 +87,8 @@ function createYearChart() {
                 }
             },
             y2: {
-                show: true
+                show: true,
+                min: 0
             }
         },
         legend: {
@@ -138,7 +140,8 @@ function createSexOChart() {
                 }
             },
             y2: {
-                show: true
+                show: true,
+                min: 0
             }
         },
         legend: {
@@ -190,7 +193,8 @@ function createGenderChart() {
                 }
             },
             y2: {
-                show: true
+                show: true,
+                min: 0
             }
         },
         legend: {
@@ -242,7 +246,8 @@ function createRaceChart2() {
                 }
             },
             y2: {
-                show: true
+                show: true,
+                min: 0
             }
         },
         legend: {
@@ -294,7 +299,8 @@ function createSexOChart2() {
                 }
             },
             y2: {
-                show: true
+                show: true,
+                min: 0
             }
         },
         legend: {
@@ -346,7 +352,8 @@ function createGenderChart2() {
                 }
             },
             y2: {
-                show: true
+                show: true,
+                min: 0
             }
         },
         legend: {
