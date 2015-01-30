@@ -43,7 +43,6 @@ function createRaceChart() {
         },
         tooltip: {
             format: {
-                title: function (d) { return 'Data ' + d; },
                 value: function (value, ratio, id) {
                     var format = id === 'Mean' ? d3.format(',') : d3.format('%');
                     return format(value);
@@ -96,7 +95,6 @@ function createYearChart() {
         },
         tooltip: {
             format: {
-                title: function (d) { return 'Data ' + d; },
                 value: function (value, ratio, id) {
                     var format = id === 'Mean' ? d3.format(',') : d3.format('%');
                     return format(value);
@@ -149,7 +147,6 @@ function createSexOChart() {
         },
         tooltip: {
             format: {
-                title: function (d) { return 'Data ' + d; },
                 value: function (value, ratio, id) {
                     var format = id === 'Mean' ? d3.format(',') : d3.format('%');
                     return format(value);
@@ -202,7 +199,6 @@ function createGenderChart() {
         },
         tooltip: {
             format: {
-                title: function (d) { return 'Data ' + d; },
                 value: function (value, ratio, id) {
                     var format = id === 'Mean' ? d3.format(',') : d3.format('%');
                     return format(value);
@@ -255,7 +251,6 @@ function createRaceChart2() {
         },
         tooltip: {
             format: {
-                title: function (d) { return 'Data ' + d; },
                 value: function (value, ratio, id) {
                     var format = id === 'Mean' ? d3.format(',') : d3.format('%');
                     return format(value);
@@ -308,7 +303,6 @@ function createSexOChart2() {
         },
         tooltip: {
             format: {
-                title: function (d) { return 'Data ' + d; },
                 value: function (value, ratio, id) {
                     var format = id === 'Mean' ? d3.format(',') : d3.format('%');
                     return format(value);
@@ -361,7 +355,6 @@ function createGenderChart2() {
         },
         tooltip: {
             format: {
-                title: function (d) { return 'Data ' + d; },
                 value: function (value, ratio, id) {
                     var format = id === 'Mean' ? d3.format(',') : d3.format('%');
                     return format(value);
