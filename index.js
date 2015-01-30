@@ -4,18 +4,18 @@ function createRaceChart() {
     var chart = c3.generate({
         data: {
             columns: [
-                ['agree',.85,.75,.78,.77,.77,.57],
-                ['disagree',.04,.12,.02,.02,.05,.13],
-                ['mean',4.00,3.56,3.81,3.81,3.83,3.32]
+                ['Agree',.85,.75,.78,.77,.77,.57],
+                ['Disagree',.04,.12,.02,.02,.05,.13],
+                ['Mean',4.00,3.56,3.81,3.81,3.83,3.32]
             ],
             type: 'bar',
             types: {
-                mean: 'spline'
+                Mean: 'spline'
             },
             axes: {
-                agree: 'y',
-                disagree: 'y',
-                mean: 'y2'
+                Agree: 'y',
+                Disagree: 'y',
+                Mean: 'y2'
             }
         },
         bar: {
@@ -45,7 +45,7 @@ function createRaceChart() {
             format: {
                 title: function (d) { return 'Data ' + d; },
                 value: function (value, ratio, id) {
-                    var format = id === 'mean' ? d3.format(',') : d3.format('%');
+                    var format = id === 'Mean' ? d3.format(',') : d3.format('%');
                     return format(value);
                 }
             }
@@ -57,18 +57,18 @@ function createYearChart() {
     var chart = c3.generate({
         data: {
             columns: [
-                ['agree',.87,.80,.79,.83],
-                ['disagree',.02,.04,.05,.05],
-                ['mean',4.04,3.91,3.81,3.90]
+                ['Agree',.87,.80,.79,.83],
+                ['Disagree',.02,.04,.05,.05],
+                ['Mean',4.04,3.91,3.81,3.90]
             ],
             type: 'bar',
             types: {
-                mean: 'spline'
+                Mean: 'spline'
             },
             axes: {
-                agree: 'y',
-                disagree: 'y',
-                mean: 'y2'
+                Agree: 'y',
+                Disagree: 'y',
+                Mean: 'y2'
             }
         },
         bar: {
@@ -98,7 +98,7 @@ function createYearChart() {
             format: {
                 title: function (d) { return 'Data ' + d; },
                 value: function (value, ratio, id) {
-                    var format = id === 'mean' ? d3.format(',') : d3.format('%');
+                    var format = id === 'Mean' ? d3.format(',') : d3.format('%');
                     return format(value);
                 }
             }
@@ -110,18 +110,18 @@ function createSexOChart() {
     var chart = c3.generate({
         data: {
             columns: [
-                ['agree',.83,.84,.71],
-                ['disagree',.04,.01,.11],
-                ['mean',3.92,4.00,3.50]
+                ['Agree',.83,.84,.71],
+                ['Disagree',.04,.01,.11],
+                ['Mean',3.92,4.00,3.50]
             ],
             type: 'bar',
             types: {
-                mean: 'spline'
+                Mean: 'spline'
             },
             axes: {
-                agree: 'y',
-                disagree: 'y',
-                mean: 'y2'
+                Agree: 'y',
+                Disagree: 'y',
+                Mean: 'y2'
             }
         },
         bar: {
@@ -151,7 +151,7 @@ function createSexOChart() {
             format: {
                 title: function (d) { return 'Data ' + d; },
                 value: function (value, ratio, id) {
-                    var format = id === 'mean' ? d3.format(',') : d3.format('%');
+                    var format = id === 'Mean' ? d3.format(',') : d3.format('%');
                     return format(value);
                 }
             }
@@ -163,18 +163,18 @@ function createGenderChart() {
     var chart = c3.generate({
         data: {
             columns: [
-                ['agree',.86,.81],
-                ['disagree',.04,.04],
-                ['mean', 3.94,3.90]
+                ['Agree',.86,.81],
+                ['Disagree',.04,.04],
+                ['Mean', 3.94,3.90]
             ],
             type: 'bar',
             types: {
-                mean: 'spline'
+                Mean: 'spline'
             },
             axes: {
-                agree: 'y',
-                disagree: 'y',
-                mean: 'y2'
+                Agree: 'y',
+                Disagree: 'y',
+                Mean: 'y2'
             }
         },
         bar: {
@@ -204,7 +204,7 @@ function createGenderChart() {
             format: {
                 title: function (d) { return 'Data ' + d; },
                 value: function (value, ratio, id) {
-                    var format = id === 'mean' ? d3.format(',') : d3.format('%');
+                    var format = id === 'Mean' ? d3.format(',') : d3.format('%');
                     return format(value);
                 }
             }
@@ -216,18 +216,18 @@ function createRaceChart2() {
     var chart = c3.generate({
         data: {
             columns: [
-                ['agree',.88,.65,.76,.77,.82,.77],
-                ['disagree',.03,.013,.04,.07,.03,.03],
-                ['mean', 4.12,3.38,3.68,3.79,3.98,3.82]
+                ['Agree',.88,.65,.76,.77,.82,.77],
+                ['Disagree',.03,.013,.04,.07,.03,.03],
+                ['Mean', 4.12,3.38,3.68,3.79,3.98,3.82]
             ],
             type: 'bar',
             types: {
-                mean: 'spline'
+                Mean: 'spline'
             },
             axes: {
-                agree: 'y',
-                disagree: 'y',
-                mean: 'y2'
+                Agree: 'y',
+                Disagree: 'y',
+                Mean: 'y2'
             }
         },
         bar: {
@@ -257,7 +257,7 @@ function createRaceChart2() {
             format: {
                 title: function (d) { return 'Data ' + d; },
                 value: function (value, ratio, id) {
-                    var format = id === 'mean' ? d3.format(',') : d3.format('%');
+                    var format = id === 'Mean' ? d3.format(',') : d3.format('%');
                     return format(value);
                 }
             }
@@ -269,18 +269,18 @@ function createSexOChart2() {
     var chart = c3.generate({
         data: {
             columns: [
-                ['agree',.85,.85,.84],
-                ['disagree',.03,.03,0],
-                ['mean',4.05,3.92,3.87]
+                ['Agree',.85,.85,.84],
+                ['Disagree',.03,.03,0],
+                ['Mean',4.05,3.92,3.87]
             ],
             type: 'bar',
             types: {
-                mean: 'spline'
+                Mean: 'spline'
             },
             axes: {
-                agree: 'y',
-                disagree: 'y',
-                mean: 'y2'
+                Agree: 'y',
+                Disagree: 'y',
+                Mean: 'y2'
             }
         },
         bar: {
@@ -310,7 +310,7 @@ function createSexOChart2() {
             format: {
                 title: function (d) { return 'Data ' + d; },
                 value: function (value, ratio, id) {
-                    var format = id === 'mean' ? d3.format(',') : d3.format('%');
+                    var format = id === 'Mean' ? d3.format(',') : d3.format('%');
                     return format(value);
                 }
             }
@@ -322,18 +322,18 @@ function createGenderChart2() {
     var chart = c3.generate({
         data: {
             columns: [
-                ['agree',.83,.86],
-                ['disagree',.04,.03],
-                ['mean', 3.99,4.06]
+                ['Agree',.83,.86],
+                ['Disagree',.04,.03],
+                ['Mean', 3.99,4.06]
             ],
             type: 'bar',
             types: {
-                mean: 'spline'
+                Mean: 'spline'
             },
             axes: {
-                agree: 'y',
-                disagree: 'y',
-                mean: 'y2'
+                Agree: 'y',
+                Disagree: 'y',
+                Mean: 'y2'
             }
         },
         bar: {
@@ -363,7 +363,7 @@ function createGenderChart2() {
             format: {
                 title: function (d) { return 'Data ' + d; },
                 value: function (value, ratio, id) {
-                    var format = id === 'mean' ? d3.format(',') : d3.format('%');
+                    var format = id === 'Mean' ? d3.format(',') : d3.format('%');
                     return format(value);
                 }
             }
