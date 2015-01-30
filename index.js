@@ -35,7 +35,8 @@ function createRaceChart() {
             },
             y2: {
                 show: true,
-                min: 0
+                min: 0,
+                max: 4.5
             }
         },
         legend: {
@@ -87,7 +88,8 @@ function createYearChart() {
             },
             y2: {
                 show: true,
-                min: 0
+                min: 0,
+                max: 4.5
             }
         },
         legend: {
@@ -139,7 +141,8 @@ function createSexOChart() {
             },
             y2: {
                 show: true,
-                min: 0
+                min: 0,
+                max: 4.5
             }
         },
         legend: {
@@ -191,7 +194,8 @@ function createGenderChart() {
             },
             y2: {
                 show: true,
-                min: 0
+                min: 0,
+                max: 4.5
             }
         },
         legend: {
@@ -243,7 +247,8 @@ function createRaceChart2() {
             },
             y2: {
                 show: true,
-                min: 0
+                min: 0,
+                max: 4.5
             }
         },
         legend: {
@@ -295,7 +300,8 @@ function createSexOChart2() {
             },
             y2: {
                 show: true,
-                min: 0
+                min: 0,
+                max: 4.5
             }
         },
         legend: {
@@ -347,7 +353,8 @@ function createGenderChart2() {
             },
             y2: {
                 show: true,
-                min: 0
+                min: 0,
+                max: 4.5
             }
         },
         legend: {
@@ -368,16 +375,16 @@ window.addEventListener('load', function(){
     
     belonging = d3.select('#belonging')
 
-    belonging.append('div').attr('id', 'chart1');
-    belonging.append('div').attr('id', 'chart3');
-    belonging.append('div').attr('id', 'chart4');
-    belonging.append('div').attr('id', 'chart2');
+    belonging.append('div').attr('id', 'chart1').attr('class', 'space-bottom4');
+    belonging.append('div').attr('id', 'chart3').attr('class', 'space-bottom4');
+    belonging.append('div').attr('id', 'chart4').attr('class', 'space-bottom4');
+    belonging.append('div').attr('id', 'chart2').attr('class', 'space-bottom4');
 
     nonDisc = d3.select('#nonDisc')
 
-    nonDisc.append('div').attr('id', 'chart5');
-    nonDisc.append('div').attr('id', 'chart6');
-    nonDisc.append('div').attr('id', 'chart7');
+    nonDisc.append('div').attr('id', 'chart5').attr('class', 'space-bottom4');
+    nonDisc.append('div').attr('id', 'chart6').attr('class', 'space-bottom4');
+    nonDisc.append('div').attr('id', 'chart7').attr('class', 'space-bottom4');
     
     createRaceChart();
     createYearChart();
