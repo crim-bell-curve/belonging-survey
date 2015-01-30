@@ -369,9 +369,9 @@ window.addEventListener('load', function(){
     belonging = d3.select('#belonging')
 
     belonging.append('div').attr('id', 'chart1');
-    belonging.append('div').attr('id', 'chart2');
     belonging.append('div').attr('id', 'chart3');
     belonging.append('div').attr('id', 'chart4');
+    belonging.append('div').attr('id', 'chart2');
 
     nonDisc = d3.select('#nonDisc')
 
